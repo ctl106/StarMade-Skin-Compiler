@@ -18,20 +18,25 @@
 For basic usage of this script, have a body texture file and helmet texture file as well as an optional body emissions file and helmet emissions file.
 
 These files must be named in the following convention:
-skin_name-skin_variation-texture.png
+`skin_name-skin_variation-texture.png`
 
 ##### Where:
-skin_name - the constant part of the skin name
-skin_variation - the variation of the texture
-texture - identifies which of the texture files; this must be one of the below
+`skin_name` - the constant part of the skin name
 
-##### texture
--body
--body_em
--helmet
--helmet_em
+`skin_variation` - the variation of the texture
 
-Then, the program can be run in the directory containing the texturess.
+`texture` - identifies which of the texture files; this must be one of the below
+
+##### texture:
+`-body`
+
+`-body_em`
+
+`-helmet`
+
+`-helmet_em`
+
+Then, the program can be run in the directory containing the textures.
 ```bash
 smsc
 ```
