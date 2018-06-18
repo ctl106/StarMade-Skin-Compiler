@@ -45,19 +45,19 @@ And a file with the name `skin_name.smskin` will be created.
 
 
 ### Recursive Usage
-Depending on your workflow, you may sometimes wish to run this from a parent directory to the one containing the texture or you may want to compile textures seperated in many different directories at once. To accomplish this, this script can also recursively search directories to find associated textures.
+Depending on your workflow, you may sometimes wish to run this from a parent directory to the one containing the texture or you may want to compile textures separated in many different directories at once. To accomplish this, this script can also recursively search directories to find associated textures.
 ```bash
 smsc -r
 ```
 
 ### Specify Output Directory
-Additionally, it can be useful to store the resulting skin files in a seperate directory from the one in which the script is being run.
+Additionally, it can be useful to store the resulting skin files in a separate directory from the one in which the script is being run.
 ```bash
 smsc -o OUTPUT
 ```
 Where `OUTPUT` is an absolute or relative directory for the `.smskin` files to be stored.
 
-###### Note: There is an issue in my current test environment where the directory willl be created if it does not already exist, but the .smskin files are not created and stored in this directory. It is recommended to make sure the directory `OUTPUT` already exists before running.
+###### Note: There is an issue in my current test environment where the directory will be created if it does not already exist, but the .smskin files are not created and stored in this directory. It is recommended to make sure the directory `OUTPUT` already exists before running.
 
 ### MISC
 ##### Time
